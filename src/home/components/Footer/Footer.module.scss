@@ -1,0 +1,79 @@
+.footer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  background-color: #1f232c;
+  color: #a3aab4 !important;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.mr {
+  color: #a3aab4 !important;
+}
+
+.social {
+  display: flex;
+  margin: 6px 0 10px 0;
+  padding: 0 0 0 16px;
+  list-style: none;
+}
+
+.icon__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+  margin-bottom: 1.4rem;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #a3aab4;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.submit {
+  margin: 1.3rem 0 10px !important;
+  padding: 0.7rem 0 0.7rem !important;
+  background-color: #d29d41 !important;
+  color: #6c411b;
+}
+
+.form {
+  width: 100%; // Fix IE 11 issue.
+  margin-top: 10px;
+}
+
+.inputMargin {
+  margin-top: 0.8rem !important;
+}
+
+.input input {
+  color: #a3aab4 !important;
+  border: 2px solid #31343d !important;
+  border-radius: 5px;
+  &::before {
+    color: #a3aab4 !important;
+    border-bottom: 2px solid rgba(163, 170, 180, 0.42) !important;
+  }
+
+  &::placeholder {
+    color: #a3aab4 !important;
+    opacity: 0.6 !important;
+  }
+}
+
+.input label {
+  color: #a3aab4;
+}
+
+.root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}

@@ -1,0 +1,59 @@
+.team {
+  margin: 3rem 0 3rem;
+}
+
+.title {
+  margin-bottom: 3rem !important;
+}
+
+.root {
+  justify-content: center;
+}
+
+.primary__1 {
+  order: 0;
+  @media only screen and (max-width: 600px) {
+    order: 0;
+  }
+}
+
+.primary__2 {
+  @media only screen and (max-width: 600px) {
+    order: 1;
+  }
+}
+
+.primary__3 {
+  @media only screen and (max-width: 600px) {
+    order: 1;
+  }
+}
+.primary__4 {
+  @media only screen and (max-width: 600px) {
+    order: 1;
+  }
+}
+
+.primary__5 {
+  @media only screen and (max-width: 600px) {
+    order: 1;
+  }
+}
+
+.image {
+  width: 100%;
+  max-width: 100%;
+  height: 400px;
+  @media only screen and (max-width: 600px) {
+    height: auto;
+  }
+}
+
+.panel__team {
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.panel__team .MuiExpansionPanelSummary-root {
+  padding: 0 !important;
+}

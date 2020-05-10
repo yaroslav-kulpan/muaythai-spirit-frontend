@@ -1,0 +1,221 @@
+body {
+  overflow-x: hidden;
+}
+
+.pricing-plan {
+  position: relative;
+  background: #343434;
+}
+
+.nav__link__pricing {
+  max-width: 140px;
+  margin-top: 20px;
+  padding: 0;
+  color: #626262;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.nav__link__pricing:hover {
+  color: #ffffff;
+}
+
+.abonement__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.nav__link__pricing.active {
+  padding-left: 10px;
+  background: transparent !important;
+  border-left: 4px solid #ffffff;
+  border-radius: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.tab-content > .active {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.pricing-plan__abonement__title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  word-break: break-all;
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.abonement__time__start {
+  margin-right: 31px;
+}
+
+.abonement__time__start,
+.abonement__time__end {
+  font-size: 59px;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+
+.abonement__time__start--part-too,
+.abonement__time__end--part-too {
+  position: relative;
+  bottom: 20px;
+  font-size: 30px;
+}
+
+.abonement__text--title {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.avatar__wrapper {
+  padding: 10px;
+}
+
+.avatar__image--mini {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.coach__name {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.abonement__description {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.abonement__price__wrapper {
+  position: absolute;
+  top: 0;
+  left: calc(100% - 60%);
+  width: 100vw;
+  height: 100%;
+  padding: 10px;
+  background: #dfa700;
+}
+
+.abonement__price {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.abonement__price--part-too {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.abonement__traning-quantity {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.acceptet__year {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1200px) {
+  .abonement__price__wrapper {
+    left: calc(100% - 60%);
+  }
+  .nav__link__pricing {
+    font-size: 27px;
+  }
+  .nav__link__pricing.active {
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .pricing-plan__abonement__title {
+    font-size: 22px;
+  }
+  .abonement__price__wrapper {
+    left: calc(100% - 48%);
+  }
+  .nav__link__pricing {
+    font-size: 19px;
+  }
+  .nav__link__pricing.active {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pricing-plan::before {
+    width: calc(100% - 73%);
+  }
+  .abonement__price__wrapper {
+    position: static;
+  }
+  .nav__link__pricing {
+    line-height: 27px;
+  }
+  .tab-content > .active {
+    padding: 30px;
+  }
+  .nav__link__pricing {
+    font-size: 15px;
+  }
+  .nav__link__pricing,
+  .nav__link__pricing.active {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .pricing-plan::before {
+    width: calc(100% - 72.4%);
+  }
+  .abonement__time__end,
+  .abonement__time__start {
+    font-size: 30px;
+  }
+  .abonement__time__end--part-too,
+  .abonement__time__start--part-too {
+    font-size: 15px;
+  }
+  .nav__link__pricing,
+  .nav__link__pricing.active {
+    font-size: 10px;
+  }
+
+  .nav__link__pricing {
+    word-break: break-all;
+    line-height: 18px;
+  }
+
+  .tab-content > .active {
+    padding: 20px;
+  }
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
